@@ -1,0 +1,219 @@
+
+.header{
+  background: #81AABF;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  opacity: 0.9;
+  z-index: 1;
+}
+
+.header-list-wrapper{
+  display: block;
+  width: 740px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.title a{
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.title a:hover{
+  color: #873E22;
+  transition-duration: 0.3s;
+}
+
+.header-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-list-item a{
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.header-list-item a:hover{
+  color: #873E22;
+  border-bottom: solid 1px;
+  transition-duration: 0.3s;
+}
+
+.welcome-contents{
+  background: url(../img/kaboompics_Sorrento\,\ Italy.jpg);
+  height: 650px;
+  background-size: cover;
+}
+
+.welcome-text{
+  font-weight: bold;
+  font-size: 60px;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 300px;
+}
+
+.sub-title{
+  font-size: 40px;
+  color: #001D26;
+  font-weight: bold;
+  text-align: center;
+  height: 200px;
+  padding-top: 50px;
+}
+
+.introduction-block,.skills-block,.production-block{
+  display: block;
+  width: 950px;
+  margin: 0 auto;
+}
+
+.introduction-flex,.skill-flex,.production-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-area{
+  overflow: hidden;
+}
+
+.introduction-text{
+  flex-basis: 55%;
+  color: #4C2A19;
+}
+
+.my-photo{
+  width: 400px;
+}
+
+.name{
+  padding: 10px 0;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.career{
+  padding: 10px 0;
+}
+
+.fa-code{
+  color: #E54D26;
+}
+
+.fa-css3{
+  color: #2163AF;
+}
+
+.fa-js-square{
+  color: #F6D33B;
+}
+
+.skill-text{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.skill-item{
+  text-align: center;
+}
+
+.production{
+  text-align: center;
+  font-size: 17px;
+  color: #4C2A19;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.production-img{
+  width: 200px;
+  transition-duration: 0.3s;
+}
+
+.img-wrap{
+  width: 200px;
+  background: #444242;
+  overflow: hidden;
+}
+
+.img-wrap:hover img{
+  opacity: 0.8;
+  transition-duration: 0.3s;
+}
+
+#my-form{
+  display: block;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.contact-flex{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.after{
+  color: #4C2A19;
+}
+
+.after:after{
+  content: " *";
+  color: #b91313;
+}
+
+.input-field{
+  display: block;
+  width: 300px;
+}
+
+#your-name,#your-email{
+  width: 294px;
+  height: 20px;
+  border: solid 3px #DDBC0A;
+  border-radius: 5px;
+}
+
+.input-field-message{
+  margin: 0 auto;
+}
+
+#your-message{
+  width: 694px;
+  height: 200px;
+  border: solid 3px #DDBC0A;
+  border-radius: 5px;
+}
+
+.btn{
+  width: 80px;
+  height: 35px;
+  background:  #E2571D;
+  font-size: 15px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.footer{
+  background: #033656;
+  height: 100px;
+  margin-top: 50px;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.copyright{
+  color: #fff;
+}
+
+.submit-btn input:hover{
+  cursor: pointer;
+  background: #6d2304;
+}
