@@ -1,0 +1,92 @@
+# Hitoshi-sPortfolio
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hitoshi's Portfolio</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+</head>
+<body>
+  <header class="header">
+    <h1 class="title"><a href="#home">Hitoshi's Portfolio</a></h1>
+    <div class="header-list-wrapper">
+      <ul class="header-list">
+        <li class="header-list-item"><a href="#about">ABOUT</a></li>
+        <li class="header-list-item"><a href="#skills">SKILL</a></li>
+        <li class="header-list-item"><a href="#portfolio">PORTFOLIO</a></li>
+        <li class="header-list-item"><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </header>
+  <article>
+    <section id="home" class="welcome-contents">
+      <P class="welcome-text">Welcome to my Portfolio</P>
+    </section>
+    <section id="about" class="about">
+      <h2 class="sub-title">ABOUT<br><i class="fas fa-chevron-down fa-2x"></i></h2>
+      <div class="introduction-block">
+        <div class="introduction-flex">
+          <div class="img-area"><img class="my-photo" src="./img/IMG_0699.jpg" alt="my-photo" srcset=""></div>
+          <div class="introduction-text">
+            <h3 class="name">Hitoshi Furuyama</h3>
+              <h4>東京都在住　３１才</h4>
+              <p class="career">これまでは自動車業界にて幅広く携わってきました。自由な働き方・新しい技術に興味があり、IT業界への憧れを抱くようになったことから、独学でフロントエンドの技術を学習するようになり、現在はアウトプットの一環としてWebサイト制作・サイト模写を行っております。</p>
+              <p>最近の趣味:レザークラフト、ロードバイクでサイクリングをすること。</p>
+              <p>休日の過ごし方:散歩しながら近所の散策、近所の市場へ行き激安の食材を調達すること。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skills" class="skills">
+      <h2 class="sub-title">SKILL<br><i class="fas fa-chevron-down fa-2x"></i></h2>
+      <div class="skills-block">
+        <ul class="skill-flex">
+          <li class="skill-item"><i class="fas fa-code fa-5x"></i>
+          <span class="skill-text"><br>HTML5</span></li>
+          <li class="skill-item"><i class="fab fa-css3 fa-5x"></i><span class="skill-text"><br>CSS3</span></li>
+          <li class="skill-item"><i class="fab fa-js-square fa-5x"></i><span class="skill-text"><br>JavaScript</span></li>
+        </ul>
+      </div>
+    </section>
+    <section id="portfolio" class="portfolio">
+      <h2 class="sub-title">PORTFOLIO<br><i class="fas fa-chevron-down fa-2x"></i></h2>
+      <p class="production">制作サイト（模写・架空含む）の一部を紹介します。</p>
+      <div class="production-block">
+        <ul class="production-flex">
+          <li class="img-wrap"><a href="./img/screencapture-file-Users-Toto-Desktop-index-html-2020-04-09-00_04_47.png" data-lightbox="group"><img class="production-img" src="./img/screencapture-file-Users-Toto-Desktop-index-html-2020-04-09-00_04_47.png" alt="daytra" srcset=""></a></li>
+          <li class="img-wrap"><a href="./img/screencapture-127-0-0-1-5500-2020-04-08-23_59_04.png" data-lightbox="group"><img class="production-img" src="./img/screencapture-127-0-0-1-5500-2020-04-08-23_59_04.png" alt="auxbacchanales" srcset=""></a></li>
+          <li class="img-wrap"><a href="./img/screencapture-127-0-0-1-5500-2020-04-13-16_40_34.png" data-lightbox="group"><img class="production-img" src="./img/derture.png" alt="derture" srcset=""></a></li>
+        </ul>
+      </div>
+    </section>
+    <section id="contact" class="contact">
+      <h2 class="sub-title">CONTACT<br><i class="fas fa-chevron-down fa-2x"></i></h2>
+      <form id="my-form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdSzEoqLI0Co7St2HGjGrE6dhkPBctoIMd-hr0iXnoKwt27Sw/formResponse">
+        <div class="contact-flex">
+          <div class="input-field">
+            <p><label class="after" for="your-name">Name</label></p>
+            <input id="your-name" type="text" name="entry.2034185444" required>
+          </div>
+          <div class="input-field">
+            <p><label class="after" for="your-email">Email</label></p>
+            <input id="your-email" type="email" name="entry.1478621680" required>
+          </div>
+        </div>
+        <div class="input-field-message">
+          <p><label class="after" for="your-message">Message</label></p>
+          <textarea id="your-message" class="materialize-textarea" name="entry.2092577610"></textarea>
+        </div>
+        <div class="submit-btn"><input type="submit" class="btn" value="Submit"></input></div>
+    </section>
+  </article>
+  <footer class="footer">
+    <small class="copyright">© 2020 Hitoshi Furuyama All Rights Reserved.</small>
+  </footer>
+</body>
+</html>
