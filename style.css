@@ -1,4 +1,3 @@
-
 .header{
   background: #81AABF;
   width: 100%;
@@ -10,7 +9,7 @@
 
 .header-list-wrapper{
   display: block;
-  width: 740px;
+  width: 80%;
   height: 40px;
   margin: 0 auto;
 }
@@ -44,8 +43,8 @@
 }
 
 .welcome-contents{
-  background: url(kaboompics_Sorrento\,\ Italy.jpg);
-  height: 650px;
+  background: url(../img/kaboompics_Sorrento\,\ Italy.jpg) no-repeat;
+  width: 100%;
   background-size: cover;
 }
 
@@ -54,7 +53,7 @@
   font-size: 60px;
   color: #ffffff;
   text-align: center;
-  padding-top: 300px;
+  padding: 25% 0;
 }
 
 .sub-title{
@@ -68,7 +67,7 @@
 
 .introduction-block,.skills-block,.production-block{
   display: block;
-  width: 950px;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -88,7 +87,7 @@
 }
 
 .my-photo{
-  width: 400px;
+  width: 360px;
 }
 
 .name{
@@ -139,6 +138,7 @@
   width: 200px;
   background: #444242;
   overflow: hidden;
+  /* margin: 0 auto; */
 }
 
 .img-wrap:hover img{
@@ -146,9 +146,9 @@
   transition-duration: 0.3s;
 }
 
-#my-form{
+.contact-block{
   display: block;
-  width: 700px;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -167,13 +167,13 @@
   color: #b91313;
 }
 
-.input-field{
+.input-field-name,.input-field-email{
   display: block;
-  width: 300px;
+  width: 48%;
 }
 
 #your-name,#your-email{
-  width: 294px;
+  width: 100%;
   height: 20px;
   border: solid 3px #DDBC0A;
   border-radius: 5px;
@@ -184,7 +184,7 @@
 }
 
 #your-message{
-  width: 694px;
+  width: 100%;
   height: 200px;
   border: solid 3px #DDBC0A;
   border-radius: 5px;
@@ -216,4 +216,10 @@
 .submit-btn input:hover{
   cursor: pointer;
   background: #6d2304;
+}
+
+.mobile-only-menu{
+  color: white;
+  font-size: 30px;
+  display: none;
 }
